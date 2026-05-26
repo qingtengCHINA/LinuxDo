@@ -1,0 +1,106 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.xcscheme
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# App Store Connect API Key
+AuthKey_*.p8
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Archives
+*.xcarchive
+
+# dSYM
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift PM
+.swiftpm/
+
+# IDE
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# User-specific files
+*.orig
+
+# Build artifacts
+*.ipa
+*.app
+
+# Simulator data
+*.simruntime
+
+# SPM build artifacts
+.build/
+
+# Xcode Cloud
+.ci/
+
+# Firebase/Google Services
+GoogleService-Info.plist
+
+# Sensitive configuration
+Config.xcconfig
+Secrets.plist
